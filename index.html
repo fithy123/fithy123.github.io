@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .abc{
-            background-color: #bbffaa;
-            width: 300px;
+        ul {
             list-style: none;
         }
-        a{
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cat {
+            height: 200px;
+            width: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            float: left;
+            margin: 10px 10px;
+        }
+
+        .list {
+            width: 400px;
+            height: 100px;
+            float: left;
+            margin-top: 50px;
+        }
+
+        .list a {
+            float: left;
             text-decoration: none;
+            margin: 40px 40px;
+            width: 55px;
         }
-        .abc li:not(:last-child){
-            padding: 10px ;
-            border: 1px solid red;
-            border-radius: 75%;
-        }
-        .abc li:hover:not(:last-child){
-            background-color: brown;
+
+        .list a:hover {
+            color: brown;
+            background-color: cyan;
         }
     </style>
 </head>
+
 <body>
-    <ul class="abc">
-        <li>
-            <a href="#">123456</a>
-        </li>
-        <li>
-            <a href="#">aaa啊啊啊</a>
-        </li>
-        <li>
-            <a href="#">哈哈哈</a>
-        </li>
+    <div class="cat">
+        <img src="1.jpg" alt="加菲猫">
+    </div>
+    <ul class="list">
+        <li><a href="#">photos</a></li>
+        <li><a href="#">videos</a></li>
     </ul>
+   
 </body>
+
 </html>
