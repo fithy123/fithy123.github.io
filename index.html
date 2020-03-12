@@ -1,2 +1,39 @@
-<h1>你好,小郑同学</h1>
-<image src="http://a1.att.hudong.com/05/00/01300000194285122188000535877.jpg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            background-color: #bbffaa;
+            width: 300px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .abc li:not(:last-child){
+            padding: 10px ;
+            border: 1px solid red;
+            border-radius: 75%;
+        }
+        .abc li:hover:not(:last-child){
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <ul class="abc">
+        <li>
+            <a href="#">123456</a>
+        </li>
+        <li>
+            <a href="#">aaa啊啊啊</a>
+        </li>
+        <li>
+            <a href="#">哈哈哈</a>
+        </li>
+    </ul>
+</body>
+</html>
