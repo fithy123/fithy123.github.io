@@ -6,53 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        ul {
-            list-style: none;
-        }
-
-        * {
+        *{
             margin: 0;
             padding: 0;
         }
-
-        .cat {
-            height: 200px;
-            width: 200px;
-            overflow: hidden;
-            border-radius: 50%;
-            float: left;
-            margin: 10px 10px;
+        ul{
+            list-style: none;
         }
-
-        .list {
-            width: 400px;
-            height: 100px;
-            float: left;
-            margin-top: 50px;
-        }
-
-        .list a {
-            float: left;
+        a{
             text-decoration: none;
-            margin: 40px 40px;
-            width: 55px;
         }
-
-        .list a:hover {
-            color: brown;
-            background-color: cyan;
-        }
+       .cat{
+           width: 200px;
+           height: 200px;
+           overflow: hidden;
+           border-radius: 50%;
+           border:solid ;
+       }
+       img{
+           vertical-align: bottom;
+       }
+       .list{
+            height: 100px;
+            /* background-color: skyblue; */
+            background-image:url(./img/背景.png);
+            /* margin: 50px  50px; */
+       }
+       
+       .list li{
+           float: left;
+            padding: 0 50px;
+           line-height: 100px;
+       }
     </style>
 </head>
 
 <body>
-    <div class="cat">
-        <img src="1.jpg" alt="加菲猫">
-    </div>
+   
     <ul class="list">
-        <li><a href="#">photos</a></li>
-        <li><a href="#">videos</a></li>
+        <li><a href="./text01-photos.html">photos</a></li>
+        <li><a href="./text01-videos.html">videos</a></li>
     </ul>
+        <div class="cat">
+            <img src="./img/1.jpg" alt="加菲猫">
+        </div>
+   
    
 </body>
 
